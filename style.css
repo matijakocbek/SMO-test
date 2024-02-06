@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: 'InterVariable';
+    src: url('./fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype-variations');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+body {
+    background-color: #3e3e3e;
+    font-family: 'InterVariable', sans-serif;
+    margin: 0;
+}
+
+#smo-container {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#spectrogrammer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgb(174, 91, 91);
+
+    display: flex;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+}
+
+.guify-text-input {
+    font-family: 'InterVariable', sans-serif;
+    font-weight: 400;
+}
+
+.guify-button, .guify-select-dropdown {
+    font-size: 11px;
+}
+
+.guify-panel input {
+    font-family: Hack, monospace;
+}
+
+.guify-title-text {
+    width: -webkit-fill-available;
+}
+
+.guify-folder-text {
+    font-weight: 900;
+}
+
+#spectrogram-container {
+    width: 50vw;
+    height: 50vh;
+
+}
