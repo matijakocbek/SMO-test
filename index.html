@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>p5.js and Guify Example</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aubiojs@0.1.1/build/aubio.min.js"></script>
+    <script src="https://unpkg.com/guify@0.14.3/lib/guify.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="smo-container">
+        <div id="spectrogrammer">
+            <div id="spectrogram-controls">
+                <div id="liveData"> <!-- New div for displaying live data -->
+                    <span id="liveFrequency">Frequency: N/A</span>
+                    <span id="liveLoudness">Loudness: N/A</span>
+                </div>
+            </div>
+            <div class="flex-item" id="spectrogram-container"></div>
+        </div>
+    </div>
+    <script src="guify.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
